@@ -1,0 +1,83 @@
+Coloquei a biblioteca, que é necessária para usar o printf e outras funções básicas de entrada e saída
+
+
+Define uma função chamada "mover torre", ela recebe um npumero de movimentos, se o movimento for "0" , para a recursão "return" se nao for "0" Imprime "direita" e ai chama a si mesma com um movimento a menos "moverTorre(movimentos-')"
+
+
+
+
+
+
+Aqui segue a mesma lógica da torre, so que mostra "Esquerda" ao invés de "direita"
+
+
+
+
+
+
+Nesse, simula o Bispo andando na diagonal, ela também é recursiva igual às anteriores
+
+
+
+
+
+
+Usa dois loops aninhados "(for dentro de For)", para cada passo na vertical "(v)", percorre vários horizontais "(h)"
+
+
+
+
+
+
+
+
+Começa declarando os "componentes" do movimento em L do cavalo, que sao 2 verticais e 1 horizontal, mostra a mensagem explicando o movimento, depois dois loops de 0 a 2, que simulam possiveis posições, se i==2 e j==1, mostra dois "cima" e um "direita" simulnaod o L, usamos o Break para sair do loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aqui é onde o programa começa a ser executado
+
+Mostra o texto Chamando o "moverTorre", mostrando "direita" 5 vezes usando a recursão
+
+
+
+
+
+Mostra o texto de explicação e chama a versão recursiva do movimento do Bispo
+
+
+
+
+
+mostra a versao com loops imprimindo "cima direita" 4 vezes
+
+
+
+
+
+Chama "moverRainha" mostrando "esquerda" 8 vezes com recursão
+
+
+
+
+
+Executa a simulação do movimento do Cavalo em L
+
+Encerra o programa com Sucesso
